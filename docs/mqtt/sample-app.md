@@ -33,7 +33,7 @@ $ npm install
 
 4. Configure .env file with your HiveMQ MQTT configuration credentials. Please follow the guide [hiveForMQTTUrl.md](hiveForMQTTUrl.md)
 
-```bash
+
 
 4. Run the following command to start the app:
 
@@ -43,7 +43,7 @@ $ npm start
 
 5. When you test the MQTT on Wiliot's management portal, you should see the events as output in the terminal:
 
-```bash
+```sh
 vyshakhbabji@Vyshakhs-Mini wiliot-demo-mqtt-nodejs % npm start
 
 > node-mqtt@1.0.0 start

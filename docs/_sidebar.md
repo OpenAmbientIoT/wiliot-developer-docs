@@ -1,5 +1,4 @@
 <!-- docs/_sidebar.md -->
-
 * [Home](/docs)
 * Guide
 * About Wiliot
