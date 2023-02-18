@@ -6,4 +6,4 @@
 
 [GitHub](https://github.com/OpenAmbientIoT)
 [OpenAmbientIoT](http://openambientiot.github.io/)
-[Getting Started with Developer Docs](/home)
+[Getting Started with Developer Docs](/about)
