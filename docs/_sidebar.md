@@ -1,4 +1,7 @@
 <!-- docs/_sidebar.md -->
+
+* <a href= "https://discord.com/invite/MuKaDbAGKu" target="_blank"> <img src="https://discordapp.com/api/guilds/1068632377850613880/widget.png?style=banner3" alt="Discord Banner 3"/> </a>
+
 * [Home](/docs)
 * Guide
 * About Wiliot
@@ -21,4 +24,3 @@
    - [Getting Started with Innovation Kit](innovation-kit/innovation-kit.md)
 * [FAQ](faq.md)
 * 
-* <a href= "https://discord.com/invite/MuKaDbAGKu" target="_blank"> <img src="https://discordapp.com/api/guilds/1068632377850613880/widget.png?style=banner3" alt="Discord Banner 3"/> </a>
