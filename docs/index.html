@@ -9,7 +9,10 @@
     <link href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-
+    <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css"
+    />
 </head>
 
 <body>
@@ -48,7 +51,17 @@
             theme      : 'classic', // default
             tabComments: true,      // default
             tabHeadings: true       // default
-        }
+        },
+        // topBanner: {
+        //     content: 'This is a top banner',
+        //     textAlign: 'center',
+        //     backgroundColor: '#f0f0f0',
+        //     textColor: '#000',
+        //     position: 'fixed',
+        //     defaultTag: 'h1',
+        //
+        // }
+
     }
 </script>
 
@@ -63,6 +76,7 @@
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
 <!--<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
 </body>
 <style type="text/css">

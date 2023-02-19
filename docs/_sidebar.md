@@ -2,6 +2,7 @@
 * [Home](/docs)
 * Guide
 * About Wiliot
+
 * Webhooks
   - [How Webhooks Works?](webhooks/how-webhooks-work.md)
   * Getting started
@@ -16,3 +17,4 @@
     - [Using HiveMQ's MQTT broker for generating MQTT url](mqtt/hiveForMQTTUrl.md)
     - [Setting up MQTT Connection](mqtt/setting-up-mqtt-connection.md)
     - [Sample App to test MQTT](mqtt/sample-app.md)
+* <a href= "https://discord.com/invite/MuKaDbAGKu" target="_blank"> <img src="https://discordapp.com/api/guilds/1068632377850613880/widget.png?style=banner3" alt="Discord Banner 3"/> </a>
