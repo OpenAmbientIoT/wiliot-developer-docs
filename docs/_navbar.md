@@ -1,9 +1,6 @@
 * Getting started
   * [Quick start](quickstart.md)
-  * [Writing more pages](more-pages.md)
-  * [Custom navbar](custom-navbar.md)
-  * [Cover page](cover.md)
-
+  * [Wiliot Innovation Kit for Developers](/innovation-kit/innovation-kit)
 * Wiliot Home
   * [Wiliot Home](https://www.wiliot.com/)
   * [Wiliot Blog](https://www.wiliot.com/blog/)
