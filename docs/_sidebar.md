@@ -2,10 +2,11 @@
 
 * <a href= "https://discord.com/invite/MuKaDbAGKu" target="_blank"> <img src="https://discordapp.com/api/guilds/1068632377850613880/widget.png?style=banner3" alt="Discord Banner 3"/> </a>
 
-* [Home](/docs)
-* Guide
-* About Wiliot
 
+* [About Wiliot](README.md)
+* Authentication 
+* SDK
+  * [Python SDK](py-wiliot-sdk/pywiliot-sdk.md)
 * Webhooks
   - [How Webhooks Works?](webhooks/how-webhooks-work.md)
   * Getting started
@@ -23,4 +24,4 @@
 * Wiliot Innovation Kit for Developers
    - [Getting Started with Innovation Kit](innovation-kit/innovation-kit.md)
 * [FAQ](faq.md)
-* 
+* Guide
