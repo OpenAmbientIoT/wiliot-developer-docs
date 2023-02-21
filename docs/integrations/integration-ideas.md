@@ -1,4 +1,4 @@
-# Integration Ideas 
+# Integration Ideas for Developers and Makers
 
 We regularly host hackathons , DevHacks and Coding events and are always looking for developers to build integrations with our technology.
 
