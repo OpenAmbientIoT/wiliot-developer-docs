@@ -24,6 +24,6 @@
 * Wiliot Innovation Kit for Developers
    - [Getting Started with Innovation Kit](innovation-kit/innovation-kit.md)
 * Integration Ideas for Developers and Makers
-   - [Integration Ideas and Themes]
+   - [Integration Ideas and Themes](integrations/integration-ideas.md)
 * [FAQ](faq.md)
 * Guide
