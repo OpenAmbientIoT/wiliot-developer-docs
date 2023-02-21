@@ -1,5 +1,5 @@
 * Getting started
-  * [Quick start](quickstart.md)
+  * [Quick start](README.md)
   * [Wiliot Innovation Kit for Developers](/innovation-kit/innovation-kit)
 * Wiliot Home
   * [Wiliot Home](https://www.wiliot.com/)
