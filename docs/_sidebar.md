@@ -4,7 +4,40 @@
 
 
 * [About Wiliot](README.md)
-* Authentication 
+- **Authentication** 
+  - [Authentication Overview](authentication/authentication-overview.md)
+
+- **APIs**
+  - [API Overview](/docs/apis/api-overview)
+  - [REST API Documentation](/docs/apis/rest-api-docs)
+  - [SDK Reference](/docs/apis/sdk-reference)
+- **Getting Started**
+  - [Quick Start Guide](/docs/getting-started/quick-start-guide)
+  - [Supported Platforms](/docs/getting-started/supported-platforms)
+  - [Installation Guide](/docs/getting-started/installation-guide)
+- **Tutorials**
+  - [Tutorials Overview](/docs/tutorials/tutorials-overview)
+  - [Tutorial Documentation](/docs/tutorials/tutorial-docs)
+  - [Tutorial Reference](/docs/tutorials/tutorial-reference)
+- **Best Practices**
+  - [Coding Standards](/docs/best-practices/coding-standards)
+  - [Design Patterns](/docs/best-practices/design-patterns)
+  - [Testing](/docs/best-practices/testing)
+- **Troubleshooting**
+  - [Error Codes](/docs/troubleshooting/error-codes)
+  - [FAQs](/docs/troubleshooting/faqs)
+  - [Support](/docs/troubleshooting/support)
+- **Resources**
+  - [Additional Reading](/docs/resources/additional-reading)
+  - [Related Products](/docs/resources/related-products)
+- **Glossary**
+  - [Glossary](/docs/glossary)
+- **Feedback**
+  - [Provide Feedback](/docs/feedback)
+
+
+
+
 * SDK
   * [Python SDK](py-wiliot-sdk/pywiliot-sdk.md)
 * Webhooks
