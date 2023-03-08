@@ -8,8 +8,9 @@
   - [Authentication Overview](authentication/authentication-overview.md)
 
 - **APIs**
-  - [API Overview](/docs/apis/api-overview)
+  - [API Overview](api/api-overview.md)
   - [REST API Documentation](/docs/apis/rest-api-docs)
+  - [REST API Guide](api/wiliot-api-guide.md)
   - [SDK Reference](/docs/apis/sdk-reference)
 - **Getting Started**
   - [Quick Start Guide](/docs/getting-started/quick-start-guide)
@@ -39,7 +40,7 @@
 
 
 * SDK
-  * [Python SDK](py-wiliot-sdk/pywiliot-sdk.md)
+  * [Python SDK](sdk/PyWiliot-SDK.md)
 * Webhooks
   - [How Webhooks Works?](webhooks/how-webhooks-work.md)
   * Getting started
