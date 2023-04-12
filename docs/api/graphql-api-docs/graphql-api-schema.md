@@ -1,17 +1,5 @@
 # GraphQL Schema for Assets , Category , Zones and Locations
 
-
-## Query
-
-```graphql
-type Query {
-  assetFilter(cursor: String, pageSize: Int): AssetPageInfo
-  locationFilter(cursor: String, pageSize: Int): LocationPageInfo
-  zoneFilter(cursor: String, pageSize: Int): ZonePageInfo
-  categoryFilter(cursor: String, pageSize: Int): CategoryPageInfo
-}
-```
-
 ## Asset
 
 ```graphql
@@ -110,12 +98,6 @@ type PageInfo {
 ## Schema Types
 
 ```graphql
-type Query {
-  assetFilter(cursor: String, pageSize: Int): AssetPageInfo
-  locationFilter(cursor: String, pageSize: Int): LocationPageInfo
-  zoneFilter(cursor: String, pageSize: Int): ZonePageInfo
-  categoryFilter(cursor: String, pageSize: Int): CategoryPageInfo
-}
 
 type Asset {
   id: ID

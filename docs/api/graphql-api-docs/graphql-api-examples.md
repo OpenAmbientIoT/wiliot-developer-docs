@@ -1,11 +1,11 @@
 # GraphQL API Examples
 
-Here are simple query examples for assets, zones, categories, and locations using GraphQL and REST API metadataFetch.
+Here are simple query examples for assets, zones, categories, and locations using GraphQL and REST API fetch.
 
 ## 1. Assets:
 
 ```bash
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
@@ -46,7 +46,7 @@ Response:
 ## 2. Categories:
 
 ```bash
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
@@ -84,7 +84,7 @@ Response:
 ## 3. Locations:
 
 ```bash
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
@@ -126,12 +126,12 @@ Response:
 
 ```bash
 
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
 --data '{
-    "query": "{ zones (pageSize : 2 ) { page { id name } pageInfo {cursor hasNext totalPages} } }"
+     "query": "{ zones (pageSize : 2 ) { page { id name } pageInfo {cursor hasNext totalPages} } }"
 }'
 
 ```
