@@ -8,7 +8,7 @@ Here are simple queries for assets, locations, zones, and categories, along with
 ```graphql
 
 query {
-  assetFilter(cursor: "CURSOR_VALUE", pageSize: 10) {
+  assets(cursor: "CURSOR_VALUE", pageSize: 10) {
     page {
       id
       name
@@ -26,9 +26,11 @@ query {
     pageInfo {
       cursor
       hasNext
+      totalPages
     }
   }
 }
+
 
 ```
 
@@ -37,7 +39,7 @@ query {
 ```graphql
 
 query {
-  locationFilter(cursor: "CURSOR_VALUE", pageSize: 10) {
+  locations(cursor: "CURSOR_VALUE", pageSize: 10) {
     page {
       id
       name
@@ -50,9 +52,11 @@ query {
     pageInfo {
       cursor
       hasNext
+      totalPages
     }
   }
 }
+
 
 ```
 
@@ -60,7 +64,7 @@ query {
 
 ```graphql
 query {
-  zoneFilter(cursor: "CURSOR_VALUE", pageSize: 10) {
+  zones(cursor: "CURSOR_VALUE", pageSize: 10) {
     page {
       id
       name
@@ -72,16 +76,18 @@ query {
     pageInfo {
       cursor
       hasNext
+      totalPages
     }
   }
 }
+
 ```
 
 ## Categories
 
 ```graphql
 query {
-  categoryFilter(cursor: "CURSOR_VALUE", pageSize: 10) {
+  categories(cursor: "CURSOR_VALUE", pageSize: 10) {
     page {
       id
       name
@@ -90,6 +96,7 @@ query {
     pageInfo {
       cursor
       hasNext
+      totalPages
     }
   }
 }
@@ -101,6 +108,7 @@ The `pageInfo` object contains the following fields:
 
 - `cursor` - The cursor value to use in the next query.
 - `hasNext` - A boolean value that indicates whether there are more pages to query.
+- `totalPages` - The total number of pages.
 
 Replace "CURSOR_VALUE" with the appropriate cursor value for each query. The pageSize argument determines the number of results per page. In these examples, it is set to 10.
 
