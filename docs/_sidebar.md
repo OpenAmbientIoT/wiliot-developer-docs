@@ -18,7 +18,6 @@
     - [GraphQL API Schema](api/graphql-api-docs/graphql-api-schema.md)
     - [GraphQL API Examples](api/graphql-api-docs/graphql-api-examples.md)
     - [GraphQL Pagination](api/graphql-api-docs/graphql-pagination.md)
-    - [GraphQL API Filters and Aggregators](api/graphql-api-docs/graphql-api-filters-and-aggregators.md)
 - **Getting Started**
   - [Quick Start Guide](/docs/getting-started/quick-start-guide)
   - [Supported Platforms](/docs/getting-started/supported-platforms)
