@@ -1,11 +1,11 @@
 # GraphQL API Examples
 
-Here are simple query examples for assets, zones, categories, and locations using GraphQL and REST API fetch.
+Here are simple query examples for assets, zones, categories, and locations using GraphQL and REST API metadataFetch.
 
 ## 1. Assets:
 
 ```bash
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
@@ -46,7 +46,7 @@ Response:
 ## 2. Categories:
 
 ```bash
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
@@ -84,7 +84,7 @@ Response:
 ## 3. Locations:
 
 ```bash
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
@@ -123,6 +123,9 @@ Response:
 
 ## 4. Zones:
 
+>>**Warning:** Zones are not supported in the REST API metadataFetch. Make sure to use Fetch API endpoint
+
+
 
 ```bash
 
@@ -131,7 +134,33 @@ curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' 
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
 --data '{
-     "query": "{ zones (pageSize : 2 ) { page { id name } pageInfo {cursor hasNext totalPages} } }"
+    "query": "{ zones (pageSize : 2 ) { page { id name } pageInfo {cursor hasNext totalPages} } }"
 }'
 
+```
+
+Response:
+
+```json
+{
+    "data": {
+        "zones": {
+            "page": [
+                {
+                    "id": "f5843751-ad86-4c25-bf4b-ec8a56a7d719",
+                    "name": "garage"
+                },
+                {
+                    "id": "9bfdb4af-7d24-4590-9326-799c9b426dbe",
+                    "name": "living room"
+                }
+            ],
+            "pageInfo": {
+                "cursor": "MV9fU0VQX19mNTg0Mzc1MS1hZDg2LTRjMjUtYmY0Yi1lYzhhNTZhN2Q3MTk=",
+                "hasNext": false,
+                "totalPages": 1
+            }
+        }
+    }
+}
 ```
