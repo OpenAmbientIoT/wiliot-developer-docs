@@ -12,6 +12,11 @@
   - [REST API Documentation](/docs/apis/rest-api-docs)
   - [REST API Guide](api/wiliot-api-guide.md)
   - [SDK Reference](/docs/apis/sdk-reference)
+  - GraphQL API Documentation
+    - [GraphQL Introdution](api/graphql-api-docs/wiliot-graphql-api-guide.md)
+    - [GraphQL API Guide](api/graphql-api-docs/graphql-api-usage.md)
+    - [GraphQL API Schema](api/graphql-api-docs/graphql-api-schema.md)
+    - [GraphQL API Examples](api/graphql-api-docs/graphql-api-examples.md)
 - **Getting Started**
   - [Quick Start Guide](/docs/getting-started/quick-start-guide)
   - [Supported Platforms](/docs/getting-started/supported-platforms)
