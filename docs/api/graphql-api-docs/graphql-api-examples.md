@@ -164,3 +164,32 @@ Response:
     }
 }
 ```
+
+
+## Using Flitering and Sorting
+
+You can use filtering and sorting in GraphQL queries. For example, to get the first 2 assets sorted by creation date in ascending order, use the following query:
+
+```bash
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
+--header 'Authorization: Bearer <ACCESS TOKEN>' \
+--header 'X-REQUEST-TYPE: GraphQL' \
+--header 'Content-Type: application/json' \
+--data '{
+    "{
+    "query": "{ assets (pageSize : 2  orderBy: {field: \"createdAt\" direction: \"asc\" } )  { page { id name poiId } pageInfo {cursor hasNext totalPages} } }"
+}
+```
+
+
+
+```bash
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
+--header 'Authorization: Bearer <ACCESS TOKEN>' \
+--header 'X-REQUEST-TYPE: GraphQL' \
+--header 'Content-Type: application/json' \
+--data '{
+    "{
+    "query": "{ assets (pageSize : 10 orderBy: {field: \"createdAt\" direction: \"asc\"} categoryId: {equalTo: \"rdc-non-con\"}) { page { id name poiId createdAt categoryId } pageInfo {cursor hasNext totalPages} } }"
+}
+```

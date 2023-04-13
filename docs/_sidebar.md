@@ -9,8 +9,6 @@
 
 - **APIs**
   - [API Overview](api/api-overview.md)
-  - [REST API Documentation](/docs/apis/rest-api-docs)
-  - [REST API Guide](api/wiliot-api-guide.md)
   - [SDK Reference](/docs/apis/sdk-reference)
   - GraphQL API Documentation
     - [GraphQL Introdution](api/graphql-api-docs/wiliot-graphql-api-guide.md)

@@ -17,7 +17,7 @@ curl --location 'https://api.example.com/v1/traceability/owner/{:ownerId}/metada
 --header 'X-REQUEST-TYPE: GraphQL'\
 --header 'Content-Type: application/json'\
 --data '{
-"query": "{ assets (pageSize : 2 ) { page { id name poiId } pageInfo {cursor hasNext totalPages} } }"
+"query": "{ assets (pageSize : 100 ) { page { id name poiId } pageInfo {cursor hasNext totalPages} } }"
 }'
 ```
 > **GraphQL**
