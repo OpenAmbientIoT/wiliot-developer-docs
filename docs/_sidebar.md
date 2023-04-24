@@ -16,6 +16,12 @@
     - [GraphQL API Schema](api/graphql-api-docs/graphql-api-schema.md)
     - [GraphQL API Examples](api/graphql-api-docs/graphql-api-examples.md)
     - [GraphQL Pagination](api/graphql-api-docs/graphql-pagination.md)
+- **Sensing Events**
+  - [Sensing Events Overview](sensing-events/sensing-events-overview)
+
+[//]: # (  - [Sensing Events Guide]&#40;/docs/sensing-events/sensing-events-guide&#41;)
+
+[//]: # (  - [Sensing Events Reference]&#40;/docs/sensing-events/sensing-events-reference&#41;)
 - **Getting Started**
   - [Quick Start Guide](/docs/getting-started/quick-start-guide)
   - [Supported Platforms](/docs/getting-started/supported-platforms)
