@@ -129,7 +129,7 @@ Response:
 
 ```bash
 
-curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/fetch' \
+curl --location 'https://api.wiliot.com/v1/traceability/owner/{:ownerID}/metadataFetch' \
 --header 'Authorization: Bearer <ACCESS TOKEN>' \
 --header 'X-REQUEST-TYPE: GraphQL' \
 --header 'Content-Type: application/json' \
