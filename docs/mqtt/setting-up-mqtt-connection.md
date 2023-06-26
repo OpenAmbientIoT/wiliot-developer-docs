@@ -1,7 +1,7 @@
 # Setting up new MQTT Connection
 
 Setting up new Webhook Connection is a simple process.
-First you need to create a [MQTT URL](hiveForMQTTUrl.md) and then you need to register this URL with Wiliot via Wiliot's Management Platform.
+First you need to create a [MQTT URL](/mqtt/hiveForMQTTUrl.md) and then you need to register this URL with Wiliot via Wiliot's Management Platform.
 
 ## Step 1: Login to Wiliot Management Platform
 
