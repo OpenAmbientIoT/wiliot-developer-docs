@@ -31,7 +31,7 @@ $ cd demos/wiliot-demo-mqtt-nodejs
 $ npm install
 ```
 
-4. Configure .env file with your HiveMQ MQTT configuration credentials. Please follow the guide [hiveForMQTTUrl.md](hiveForMQTTUrl.md)
+4. Configure .env file with your HiveMQ MQTT configuration credentials. Please follow the guide [hiveForMQTTUrl.md](/mqtt/hiveForMQTTUrl.md)
 
 
 
