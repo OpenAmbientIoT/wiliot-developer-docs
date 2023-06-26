@@ -13,7 +13,7 @@ This sample app demonstrates how to use Wiliot MQTT connection to receive events
 - [Node.js](https://nodejs.org/en/download/) installed on your machine
 - A Wiliot account. If you don't have one, you can [sign up here](https://wiliot.com/).
 - A Wiliot device. If you don't have one, you can [buy one here](https://wiliot.com/).
-- HiveMQ MQTT configuration setup. Please follow the guide [hiveForMQTTUrl.md](hiveForMQTTUrl.md)
+- HiveMQ MQTT configuration setup. Please follow the guide [hiveForMQTTUrl.md](/mqtt/hiveForMQTTUrl.md)
 
 ## Setup
 

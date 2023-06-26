@@ -30,4 +30,4 @@ In this case, for example: `mqtt://4be23fb544cb4b26ac93ec4c2d5d78ab.s2.eu.hivemq
 
 ![Cluster_Details_-_HiveMQ_Cloud.png](..%2Fscreenshots%2FCluster_Details_-_HiveMQ_Cloud.png)
 
-6. Continue with [setting-up-mqtt-connection](setting-up-mqtt-connection.md) process.
+6. Continue with [setting-up-mqtt-connection](/mqtt/setting-up-mqtt-connection.md) process.
