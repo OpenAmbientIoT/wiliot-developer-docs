@@ -22,7 +22,7 @@ and a plugin architecture that allows for customization and extension of the pla
 
 4. Click on the **Overview** menu. 
 
-5. You will see **Cluster URL** and **Port** information. Copy the **Cluster URL** and use it as a MQTT url in the [setting-up-mqtt-connection](setting-up-mqtt-connection.md) process.
+5. You will see **Cluster URL** and **Port** information. Copy the **Cluster URL** and use it as a MQTT url in the [setting-up-mqtt-connection](/mqtt/setting-up-mqtt-connection.md) process.
 
 Your MQTT url will look like this: `mqtts://<CLUSTER_URL>:<PORT>`
 

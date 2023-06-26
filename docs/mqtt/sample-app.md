@@ -31,11 +31,11 @@ $ cd demos/wiliot-demo-mqtt-nodejs
 $ npm install
 ```
 
-4. Configure .env file with your HiveMQ MQTT configuration credentials. Please follow the guide [hiveForMQTTUrl.md](/mqtt/hiveForMQTTUrl.md)
+4. Configure .env file with your HiveMQ MQTT configuration credentials. Please follow the guide [here](/mqtt/hiveForMQTTUrl.md)
 
 
 
-4. Run the following command to start the app:
+4. Run the following command to start the app: 
 
 ```bash
 $ npm start
