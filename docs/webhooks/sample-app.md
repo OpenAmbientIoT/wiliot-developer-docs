@@ -57,7 +57,7 @@ Started Server....
 App is listening at http://localhost:8080
 ```
 
-6. Copy the webhook url from the output and use it in the [setting-up-webhook-connection](webhooks/Setting-up-webhook-connection.md) process.
+6. Copy the webhook url from the output and use it in the [setting-up-webhook-connection](webhooks/setting-up-webhook-connection.md) process.
 
 7. Open the ngrok dashboard at http://localhost:4040/inspect/http to inspect the events sent to your webhook url.
 
