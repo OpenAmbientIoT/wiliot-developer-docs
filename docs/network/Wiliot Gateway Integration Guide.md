@@ -31,7 +31,7 @@ Table of Contents
 
 The Wiliot platform operates using a synergistic arrangement of IoT Pixels, Bridges, and Gateways. Understanding the interplay between these components is vital for effective integration. 
 
-![WiliotNetworkHLDiagram.png](integration.png)
+![WiliotNetworkHLDiagram.png](./integration.png)
 
 Here's a breakdown of how they operate:
 
