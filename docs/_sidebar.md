@@ -50,7 +50,9 @@
 
 
 * SDK
-  * [Python SDK](sdk/PyWiliot-SDK.md)
+  * [Python SDK](sdk/PyWiliot-SDK.md)\
+* Gateway Integration Guide
+  * [Gateway Integration Guide](network/Wiliot-Gateway-Integration-Guide.md)
 * Webhooks
   - [How Webhooks Works?](webhooks/how-webhooks-work.md)
   * Getting started
