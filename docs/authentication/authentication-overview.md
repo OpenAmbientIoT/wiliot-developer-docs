@@ -18,12 +18,11 @@ To obtain an access token, send a `POST` request to the Wiliot API's token authe
 Here's an example cURL command for generating an access token:
 
 ```shell
-curl --request POST\
---url https://api.wiliot.com/v1/auth/token/api\
---header 'accept: application/json'\
---header 'authorization: MY_API_KEY'\
---header 'content-type: application/json'\
---data '{}'
+curl --request POST \
+--url https://api.wiliot.com/v1/auth/token/api \
+--header 'Accept: application/json' \
+--header 'Authorization: MY_API_KEY' \
+--header 'Content-Type: application/json' \
 ````
 
 Replace `MY_API_KEY` with your actual API key value.
@@ -48,14 +47,14 @@ Using the Access Token
 
 To use the access token, include it in the `Authorization` header of each subsequent API request. Set the value of the `Authorization` header to `Bearer ACCESS_TOKEN`, where `ACCESS_TOKEN` is the actual value of the access token generated in the previous step.
 
-For example, to retrieve a list of products from the Wiliot API using cURL, include the access token in the `Authorization` header of the request:
+For example, to retrieve a list of locations from the Wiliot API using cURL, include the access token in the `Authorization` header of the request:
 
 
 ```shell
-curl --request GET\
---url https://api.wiliot.com/v1/products\
---header 'accept: application/json'\
---header 'authorization: Bearer ACCESS_TOKEN'`
+curl --request GET \
+--url https://api.wiliot.com/v1/traceability/owner/{OWNERID}/location \
+--header 'accept: application/json' \
+--header 'authorization: Bearer {ACCESS_TOKEN}'
 ```
 
 Replace `ACCESS_TOKEN` with the actual value of your access token.
