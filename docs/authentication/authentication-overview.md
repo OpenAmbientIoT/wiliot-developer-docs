@@ -53,8 +53,8 @@ For example, to retrieve a list of locations from the Wiliot API using cURL, inc
 ```shell
 curl --request GET \
 --url https://api.wiliot.com/v1/traceability/owner/{OWNERID}/location \
---header 'accept: application/json' \
---header 'authorization: Bearer {ACCESS_TOKEN}'
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer {ACCESS_TOKEN}'
 ```
 
 Replace `ACCESS_TOKEN` with the actual value of your access token.
